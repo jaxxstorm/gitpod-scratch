@@ -1,4 +1,4 @@
-FROM gitpod/workspace-full
+FROM gitpod/workspace-full:latest
 
 RUN curl -fsSL https://get.pulumi.com | sh
 
