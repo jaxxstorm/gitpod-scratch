@@ -1,5 +1,6 @@
 image:
   file: .gitpod/Dockerfile
 tasks:
-  - init: pulumi login
+  - name: Login to Pulumi
+    command: pulumi login
     openIn: main
