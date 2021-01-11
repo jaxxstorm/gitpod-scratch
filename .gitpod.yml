@@ -1,4 +1,6 @@
 image:
   file: .gitpod.Dockerfile
 tasks:
-  - sudo docker-up
+- name: Install docker
+  command: >
+    sudo docker-up
