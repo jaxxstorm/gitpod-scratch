@@ -3,4 +3,3 @@ image:
 tasks:
   - name: Login to Pulumi
     command: pulumi login
-    openIn: main
